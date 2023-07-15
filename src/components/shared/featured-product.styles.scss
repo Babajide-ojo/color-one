@@ -1,0 +1,25 @@
+.featured-product {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem;
+    margin-left: 1rem 0;
+    height: 350px;
+  }
+
+.featured-image{
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.name-price h3{
+  height: 40px;
+}
+  @media screen and (max-width:700px){
+    .featured-product
+    {
+      padding: 0rem !important;
+      // height: 300px;
+    }
+    .name-price h3{
+      font-size: 20px !important;
+    }
+  }

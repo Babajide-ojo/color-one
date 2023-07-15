@@ -1,0 +1,31 @@
+{
+    "batch_number": "I5337891671091743256",
+    "merchant_id": 533789,
+    "merchant_contact": "08090236426",
+    "shipping_information": "N/A",
+    "warehouse": "LAGM001",
+    "status": "scheduled",
+    "scheduled_at": "2022-12-16T08:08:07.545Z",
+    "inbound_date": null,
+    "document_link": null,
+    "updated_by": "kizzito.onyeka@konga.com",
+    "created_at": "2022-12-15T08:09:03.000Z",
+    "updated_at": "2022-12-15T08:10:01.000Z",
+    "update_reason": null,
+    "merchant_name": "IMOSE OFFICIAL STORE",
+    "site": "LAGM001",
+    "order_number": null,
+    "type": null,
+    "items": [
+        {
+            "product_id": 5962563,
+            "tag": "no-tag",
+            "qty": 200,
+            "unit_price": 67550,
+            "decline_reason": null,
+            "classification": 0,
+            "cost_price": 0,
+            "is_vat_inclusive": 0
+        }
+    ]
+}

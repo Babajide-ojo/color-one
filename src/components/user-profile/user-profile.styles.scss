@@ -1,0 +1,29 @@
+.profile{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background: #f7f7f7;
+    padding: 25px;
+}
+.acc-details{
+    font-size: .875rem;
+}
+ .profile-name{
+    font-size: 0.875rem;
+}
+.profile-email{
+    font-size: 0.875rem;
+    color: #75757a;;
+}
+
+@media screen and (max-width: 700px) {
+    .bonus-stn{
+        margin-top: 50px;
+
+    }
+    .profile
+    {
+        width: 100%;
+        background-color: #fff  !important;
+    }
+}

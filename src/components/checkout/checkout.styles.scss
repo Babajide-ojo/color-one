@@ -1,0 +1,133 @@
+.checkout {
+  //   width: 70%;
+  // margin: 0rem auto;
+  padding: 20px;
+  background: #f4f3f3;
+
+  h4 {
+    margin: 0;
+    margin-top: 3rem;
+  }
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    background: #d2a2177a !important;
+    color: #0b0a0a !important;
+    font-weight: 500;
+    border: 1px solid #d2a2177a !important;
+  }
+  .button:hover {
+    background-color: #d29f02 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .paystack-card {
+    margin-top: 2rem;
+  }
+
+  .card-number {
+    margin-top: 2rem;
+  }
+  .card-element {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 55%;
+    margin: 0 auto;
+  }
+  .error {
+    border: 1px solid red;
+  }
+  .error-message {
+    color: red;
+    font-size: 1.5rem;
+  }
+  .payment-button {
+    margin-top: 0px;
+  }
+}
+.paystack-payment-button {
+  margin: auto;
+  height: 3rem;
+}
+.checkout-item {
+  color: rgb(114, 112, 105);
+  font-size: 14px;
+}
+.order-details {
+  color: rgb(41, 36, 36);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
+    font-size: 14px;
+}
+.order-details-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.order-summary,
+.item-count {
+  color: rgb(41, 36, 36);
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0;
+}
+.order-summary-item {
+  color: rgb(19, 18, 18);
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 0;
+}
+.item-count-item {
+  color: #4a4a4a;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#total-summary{
+margin-top: 30px;
+}
+.select-delivery{
+  margin-top: 30px;
+}
+#place-order-stn{
+  display: none;
+}
+.phone-num{
+  font-size: 12px !important;
+  color: #d29f02;
+  font-weight: 500;
+}
+.payment{
+  text-align: center;
+  margin-top: 100px;
+}
+.pay-btn-section{
+  margin-top: 50px;
+}
+.pay_num_item{
+  font-size: 1.25rem;
+}
+.pay_num_amount{
+  font-size: 1.25rem;
+}
+#pay-now-stn{
+  width: 40%;
+  margin: auto;
+}
+.checkout-header{
+  font-size: 1.5rem;
+  margin: 50px;
+}
+
+@media screen and (max-width:700px) {
+  .checkout {
+    padding: 20px 50px;
+    background: #f1f1f1;
+}
+#pay-now-stn {
+  width: 80%;
+  margin: auto;
+}
+}

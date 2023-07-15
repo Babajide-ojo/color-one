@@ -1,0 +1,49 @@
+.flash-sales-product {
+  padding: 1rem;
+  margin-left: 1rem 0;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 16.666%;
+}
+
+.flash-sales-product:hover {
+  margin: 0.9rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .flash-sales-product {
+    padding: 0px;
+    margin: 0.4rem;
+  }
+  .products {
+    display: flex;
+  }
+}
+
+.flash-sales-coll-title {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  background: #d29f02;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+}
+.flash-sales-coll-title > h2 {
+  font-size: 1.25rem;
+}
+.flash-sales-coll {
+  margin-top: 30px !important;
+}
+.products {
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .flash-sales-coll-title {
+    margin-left: 0;
+  }
+}

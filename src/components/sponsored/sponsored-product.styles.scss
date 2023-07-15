@@ -1,0 +1,21 @@
+.sponsored-product {
+  padding: 1rem;
+  margin-left: 1rem 0;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 16.666%;
+}
+
+.sponsored-product:hover {
+  margin: 0.9rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .sponsored-product {
+    padding: 0px;
+    margin: 0.4rem;
+  }
+  .products{
+    display: flex;
+  }
+}
